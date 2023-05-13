@@ -37,12 +37,36 @@ body {
     font-size: 17px;
 }
 
+.header1 {
+    height: 470px;
+    width: 100%;
+    background-image: url("../images/toystory4_wallpaper.jpg");
+    background-size: cover;
+}
+
+.header2 {
+}
+
+.header2 img,.header2 h1 {
+    vertical-align: middle;
+    display: inline-block;
+    padding-right: 2%;
+    margin-top: -200px;
+}
+
+.header2 img {
+    height: 400px;
+}
 
 h1, h2, h3 {
     color: #960001;
     font-family: 'Cabin', sans-serif;
 }
 
+h1 {
+    font-size: 70px;
+    padding-top: 1.5em;
+}
 
 h2 {
     font-size: 36px;
@@ -77,6 +101,21 @@ a {
 .character img {
     float: left;
     padding-right: 2%;
-    ;
+    width: 200px;
+    height: 200px;
 }
 
+#comment_field {
+    width: 375px;
+    height: 30px;
+}
+
+#rate {
+    width: 380px;
+    background-color: #79519f;
+    color: #FFFFFF;
+    font-size: 24px;
+    border-radius: 1px;
+    border-color: #79519f;
+    margin-bottom: 1em;
+}
