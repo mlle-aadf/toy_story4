@@ -1,3 +1,5 @@
-console.log("To infinity and beyond.");
+// console.log("To infinity and beyond.");
 
-// write your JavaScript here
+function submitComment(){
+    var text = document.getElementById("comment").;
+}
